@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Eggert",
+    "icon": "/images/icons/eggert.png",
+    "url": "https://github.com/typegg-io/eggert-bot",
+    "desc": "A Discord bot built for the TypeGG typing community that surfaces detailed account statistics and insights directly in Discord. Deployed live in the official TypeGG server, with commands covering personal bests, quote performance breakdowns, and leaderboard data.",
+    "highlights": [
+      "Live in the TypeGG Discord server with an active user base",
+      "Commands for stats, personal bests, and top quotes by WPM and accuracy",
+      "Links Discord accounts to TypeGG profiles for personalized data"
+    ],
+    "tags": [
+      "Python",
+      "discord.py",
+      "matplotlib",
+      "SQLite"
+    ]
+  },
+  {
+    "name": "Art Generator",
+    "icon": "/images/icons/art-generator.png",
+    "url": "https://github.com/keegan-t/art-generator",
+    "desc": "A browser-based generative art tool with a real-time parameter editor and a persistent local gallery. Every artwork is deterministic - the same seed always reproduces the same result - and can be saved or exported as a PNG.",
+    "highlights": [
+      "8 tunable parameters: palette, shape, complexity, symmetry, blend mode, and more",
+      "Lock any parameter before randomizing to preserve it while exploring variations",
+      "Persistent gallery view using localStorage - no backend required"
+    ],
+    "tags": [
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "Canvas API"
+    ]
+  },
+  {
+    "name": "Clipboard History",
+    "icon": "/images/icons/clipboard-history.png",
+    "url": "https://github.com/keegan-t/clipboard-history",
+    "desc": "A lightweight Windows clipboard manager that runs silently in the system tray and keeps a searchable, persistent history of all text and image copies. Ships with two global hotkey tools: a Quick Pick popup and an inline Quick Calculator.",
+    "highlights": [
+      "Ctrl+Alt+V Quick Pick popup for instant access to recent clipboard entries",
+      "Ctrl+Alt+C Quick Calculator supporting math expressions, trig, and time arithmetic",
+      "Stores all entries locally in a SQLite database with timestamp and image preview"
+    ],
+    "tags": [
+      "C#",
+      "WPF",
+      "SQLite"
+    ]
+  }
+]

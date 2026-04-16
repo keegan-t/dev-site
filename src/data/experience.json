@@ -1,0 +1,21 @@
+[
+  {
+    "company": "Mohawk MEDIC",
+    "role": "eHealth Programmer & Analyst",
+    "period": "May 2022 - Dec 2022",
+    "bullets": [
+      "Developed a medical web interface from scratch to consolidate patient data scattered across multiple systems into a single, organized view",
+      "Contributed across the full project lifecycle - from initial requirements through to delivery - within a small, fast-moving team",
+      "Collaborated closely with team members and stakeholders to ensure the interface met real clinical workflows"
+    ]
+  },
+  {
+    "company": "ProServeIT",
+    "role": "IT Support Technician",
+    "period": "May 2021 - Aug 2021",
+    "bullets": [
+      "Set up and imaged computers for corporate clients, managing deployments across multiple customer environments",
+      "Installed remote management agents on client devices via remote connection, ensuring secure and consistent device configuration"
+    ]
+  }
+]

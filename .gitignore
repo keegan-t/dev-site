@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+.astro/
+
+# Environment variables
+.env
+.env.*
+
+# Logs
+npm-debug.log*
+
+# OS
+.DS_Store
+
+# IDE
+.idea/
+
+# Sandbox
+sandbox/
+
+# Large media
+public/videos/

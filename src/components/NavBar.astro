@@ -1,0 +1,80 @@
+---
+const path = Astro.url.pathname;
+
+const links = [
+    { label: "Home", href: "/" },
+    { label: "Work", href: "/work" },
+    { label: "Projects", href: "/projects" },
+];
+---
+
+<nav class="site-nav">
+    <div class="nav-inner">
+        <a href="/" class="nav-title">Keegan Tournay</a>
+        <div class="nav-links">
+            {links.map(link => (
+                    <a href={link.href} class={`nav-link${path === link.href ? " active" : ""}`}>
+                        {link.label}
+                    </a>
+            ))}
+        </div>
+    </div>
+</nav>
+
+<style>
+    .site-nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 50;
+        background: rgba(7, 7, 26, 0.85);
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+        border-bottom: 1px solid var(--border-bright);
+    }
+
+    .nav-inner {
+        max-width: 80rem;
+        margin: 0 auto;
+        padding: 0 1.5rem;
+        height: 4rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .nav-title {
+        font-family: "Outfit", system-ui, sans-serif;
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: #fff;
+        text-decoration: none;
+        transition: color 0.2s;
+    }
+
+    .nav-title:hover {
+        color: var(--blue);
+    }
+
+    .nav-links {
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .nav-link {
+        font-size: 1rem;
+        color: var(--text-muted);
+        text-decoration: none;
+        transition: color 0.2s;
+    }
+
+    .nav-link:hover {
+        color: #fff;
+    }
+
+    .nav-link.active {
+        color: #fff;
+    }
+</style>

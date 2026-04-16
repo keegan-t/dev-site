@@ -1,0 +1,178 @@
+{
+  "coding": {
+    "stats": [
+      {
+        "label": "GitHub Contributions",
+        "value": "1,870",
+        "sub": "Since 2016"
+      },
+      {
+        "label": "Keys Pressed",
+        "value": "329.2M",
+        "sub": "WhatPulse lifetime"
+      },
+      {
+        "label": "Languages",
+        "value": "6",
+        "sub": "JS · TS · Python · C# · Java · PHP"
+      },
+      {
+        "label": "Years Coding",
+        "value": "10+",
+        "sub": "and counting"
+      }
+    ]
+  },
+  "music": {
+    "tracks": [
+      {
+        "title": "Break Free",
+        "artist": "Teminite",
+        "genre": "Melodic Dubstep",
+        "art": "/images/albums/break-free.jpg",
+        "url": "https://music.youtube.com/watch?v=5t6_haHGU1Q",
+        "clip": "/audio/break-free-clip.mp3",
+        "plays": 1693
+      },
+      {
+        "title": "Nevermore",
+        "artist": "Symphony X",
+        "genre": "Progressive Metal",
+        "art": "/images/albums/nevermore.jpg",
+        "url": "https://music.youtube.com/watch?v=z6hx30ZIIs8",
+        "clip": "/audio/nevermore-clip.mp3",
+        "plays": 234
+      },
+      {
+        "title": "Parallel Universe Shifter",
+        "artist": "Camellia",
+        "genre": "Full Flavor",
+        "art": "/images/albums/parallel-universe-shifter.jpg",
+        "url": "https://music.youtube.com/watch?v=5adPbyM6Bo4",
+        "clip": "/audio/parallel-universe-shifter-clip.mp3",
+        "plays": 208
+      },
+      {
+        "title": "Lace",
+        "artist": "Christopher Larkin",
+        "genre": "Video Game OST",
+        "art": "/images/albums/lace.jpg",
+        "url": "https://music.youtube.com/watch?v=zRs58D34OLY",
+        "clip": "/audio/lace-clip.mp3",
+        "plays": 149
+      },
+      {
+        "title": "Night in Tunisia",
+        "artist": "Jesus Molina",
+        "genre": "Jazz",
+        "art": "/images/albums/night-in-tunisia.jpg",
+        "url": "https://music.youtube.com/watch?v=0PLQPrllD7c",
+        "clip": "/audio/night-in-tunisia-clip.mp3",
+        "plays": 129
+      }
+    ],
+    "featuredTranscription": {
+      "title": "Teminite & Skybreak - Accelerate",
+      "url": "https://www.youtube.com/watch?v=LnQTcgQ9a3o"
+    }
+  },
+  "typing": {
+    "races": [
+      {
+        "quote": "If the car found life, it could try to use this gun to learn about it, but the life might not be alive when it was done.",
+        "cover": "https://api.typegg.io/api/files/sources/z8019202ybgib1b/thing_explainer_cover_l3f3mp9nop.png",
+        "wpm": 248.57,
+        "acc": 100,
+        "date": "2026-01-30"
+      },
+      {
+        "quote": "You are not capable of love because you cannot understand what it is to care for someone else more than yourself.",
+        "cover": "https://api.typegg.io/api/files/sources/x500k73wnnu0o05/50623864_vau7lqk1xq.jpg",
+        "wpm": 246.76,
+        "acc": 100,
+        "date": "2026-02-24"
+      },
+      {
+        "quote": "Sometimes it is the people who no one imagines anything of who do the things that no one can imagine.",
+        "cover": "https://api.typegg.io/api/files/sources/ij9er09n9ymhiwp/image_9okrybdzxb.png",
+        "wpm": 237.78,
+        "acc": 100,
+        "date": "2025-11-28"
+      },
+      {
+        "quote": "So you need to know things, even when you don't need to know them. You need to know them not because you need to know them, but because you need to know whether or not you need to know. And if you don't need to know you still need to know so that you know that there was no need to know.",
+        "cover": "https://api.typegg.io/api/files/sources/74595157rh47395/mv5_bzgm4_mz_jj_yz_at_nj_e4_ni00_mtkw_ltlj_ztet_mz_y1_mwu0_n2_m1_ythj_xk_ey_xk_fqc_gc_h9mpojwcin._V1_.jpg",
+        "wpm": 236.16,
+        "acc": 100,
+        "date": "2025-11-12"
+      },
+      {
+        "quote": "I've been making a list of the things they don't teach you at school. They don't teach you how to love somebody. They don't teach you how to be famous. They don't teach you how to be rich or how to be poor. They don't teach you how to walk away from someone you don't love any longer. They don't teach you how to know what's going on in someone else's mind. They don't teach you what to say to someone who's dying. They don't teach you anything worth knowing.",
+        "cover": "https://api.typegg.io/api/files/sources/82l31wl6l42y846/71e_aw_ndqc8_l_z4sp6wx0fj.UF10001000_QL80_.jpg",
+        "wpm": 235.98,
+        "acc": 100,
+        "date": "2025-11-28"
+      }
+    ]
+  },
+  "cubing": {
+    "pbs": [
+      {
+        "time": "7.07",
+        "date": "2026-04-07",
+        "note": "PB",
+        "solve": {
+          "scramble": "L' R2 F' R2 D2 L2 D2 B' U2 L2 B' U2 L' U B' D' U F2 R U'",
+          "reconstruction": "z2 y // Inspection\nD R L2 F R2 // X-Cross\nR' U' R // 2nd Pair\ny' R U R2 U' R // 3rd Pair\nU2 R U R' U2 R U' R' // 4th Pair\ny' R U R' U R U2 R' // OLL\nU' R U R' U' R' F R2 U' R' U' R U R' F' U' // PLL",
+          "moves": 44,
+          "tps": 6.22,
+          "rotations": 2
+        }
+      },
+      {
+        "time": "7.42",
+        "date": "2026-03-21",
+        "solve": {
+          "scramble": "D2 F2 L2 D' R2 F2 D' L2 F2 D2 R B L U' F2 L R' D' L",
+          "reconstruction": "z2 y // Inspection\nR' F' B // X-Cross\nL U2 L' U2 L U' L' // 2nd Pair\nU2 L' U' L // 3rd Pair\ny R U R' U' R U R' // 4th Pair\nF U R U' R' F' // OLL\nU' R U R' U' R' F R2 U' R' U' R U R' F' // PLL",
+          "moves": 42,
+          "tps": 5.66,
+          "rotations": 1
+        }
+      },
+      {
+        "time": "7.51",
+        "date": "2025-02-28",
+        "solve": {
+          "scramble": "F D2 F2 U B2 D' R2 D R2 U' F2 L' R F' R' B' F' L' D' B",
+          "reconstruction": "x2 // Inspection\nD R' D' // Cross\ny' L' U L // 1st Pair\nU' R U R' y U' R' U' R // 2nd Pair\ny U' R' U' R U' R' U R // 3rd Pair\ny' R' U' R U2 R' U R // 4th Pair\nU' R U R' U R U' R' U' R' F R F' // OLL\nU2 R U R' F' R U R' U' R' F R2 U' R' U' // PLL",
+          "moves": 57,
+          "tps": 7.59,
+          "rotations": 4
+        }
+      },
+      {
+        "time": "7.83",
+        "date": "2024-10-13",
+        "solve": {
+          "scramble": "F2 U' B2 U R2 U2 B2 U R2 D2 L2 F U L2 D2 B' R B",
+          "reconstruction": "z2 // Inspection\nL' F' B y' D R' // X-Cross\nU L' U' L U L' U' L U' L' U L // 2nd Pair\ny U2 R U' R' y U R U' R' // 3rd Pair\ny' U' R U' R' y' U2 R' U' R// 4th Pair\nU' R U' R U R U R U' R' U' R2 // PLL",
+          "moves": 45,
+          "tps": 5.75,
+          "rotations": 5
+        }
+      },
+      {
+        "time": "7.86",
+        "date": "2020-12-18",
+        "solve": {
+          "scramble": "F2 D' R2 U2 L2 F2 D2 U2 L2 F2 L' U B2 R2 B2 R B2 D' R'",
+          "reconstruction": "z2 // Inspection\nR' L // Cross\nU' L U L' U L U' L' // 1st Pair\nR U2 R' U2 L' U' L // 2nd Pair\nU' R' U R // 3rd Pair\nU' R U' R' U2 R U' R' // 4th Pair\nR U2 R' U' R U R' U' R U' R' // OLL\nU R U R' U' R' F R2 U' R' U' R U R' F' // PLL",
+          "moves": 55,
+          "tps": 7,
+          "rotations": 1
+        }
+      }
+    ]
+  }
+}

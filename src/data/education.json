@@ -1,0 +1,16 @@
+[
+  {
+    "school": "McMaster University",
+    "degree": "Bachelor of Technology - Software Engineering",
+    "year": "2024 - Present",
+    "gpa": null,
+    "logo": "/images/education/mcmaster.jpg"
+  },
+  {
+    "school": "Mohawk College",
+    "degree": "Advanced Diploma - Computer Systems Technology",
+    "year": "2020 - 2023",
+    "gpa": "3.83",
+    "logo": "/images/education/mohawk.png"
+  }
+]

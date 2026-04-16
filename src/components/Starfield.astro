@@ -1,0 +1,78 @@
+<canvas id="starfield"></canvas>
+
+<style>
+    #starfield {
+        position: fixed;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 0;
+        pointer-events: none;
+    }
+</style>
+
+<script>
+    // @ts-nocheck
+    const CONSTELLATIONS_ENABLED = false;
+
+    const canvas = document.getElementById("starfield");
+    const ctx = canvas.getContext("2d");
+    let stars = [];
+
+    function resize() {
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+    }
+
+    function createStars() {
+        stars = [];
+        const count = Math.floor((canvas.width * canvas.height) / 4000);
+        for (let i = 0; i < count; i++) {
+            stars.push({
+                x: Math.random() * canvas.width,
+                y: Math.random() * canvas.height,
+                radius: Math.random() * 1.2 + 0.2,
+                opacity: Math.random() * 0.7 + 0.1,
+                twinkleSpeed: Math.random() * 0.007 + 0.002,
+                twinkleDir: Math.random() > 0.5 ? 1 : -1,
+            });
+        }
+    }
+
+    let lastTime = null;
+
+    function draw(ts) {
+        const dt = lastTime ? ts - lastTime : 0;
+        lastTime = ts;
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        for (const star of stars) {
+            star.opacity += star.twinkleSpeed * star.twinkleDir;
+            if (star.opacity >= 0.9) {
+                star.opacity = 0.9;
+                star.twinkleDir = -1;
+            }
+            if (star.opacity <= 0.05) {
+                star.opacity = 0.05;
+                star.twinkleDir = 1;
+            }
+            ctx.beginPath();
+            ctx.arc(star.x, star.y, star.radius, 0, Math.PI * 2);
+            ctx.fillStyle = `rgba(255, 255, 255, ${star.opacity})`;
+            ctx.fill();
+        }
+        if (CONSTELLATIONS_ENABLED) {
+            tickConstellation(dt);
+            drawConstellation();
+        }
+        requestAnimationFrame(draw);
+    }
+
+    resize();
+    createStars();
+    requestAnimationFrame(draw);
+
+    window.addEventListener("resize", () => {
+        resize();
+        createStars();
+    });
+</script>

@@ -1,0 +1,68 @@
+---
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="404">
+    <div class="not-found">
+        <p class="error-code">404</p>
+        <h1 class="headline">You've landed among the stars.</h1>
+        <p class="sub">This page doesn't exist, but the view isn't bad.</p>
+        <a href="/" class="home-link">Take me home</a>
+    </div>
+</Layout>
+
+<style>
+    .not-found {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 2rem;
+        gap: 1rem;
+    }
+
+    .error-code {
+        font-family: "Outfit", system-ui, sans-serif;
+        font-size: clamp(6rem, 20vw, 12rem);
+        font-weight: 700;
+        line-height: 1;
+        letter-spacing: -0.04em;
+        background: linear-gradient(90deg, var(--blue), var(--purple));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        filter: drop-shadow(0 0 60px rgba(0, 148, 255, 0.2)) drop-shadow(0 0 120px rgba(178, 0, 255, 0.1));
+        margin-bottom: 0.25rem;
+    }
+
+    .headline {
+        font-family: "Outfit", system-ui, sans-serif;
+        font-size: clamp(1.25rem, 3vw, 1.75rem);
+        font-weight: 600;
+        color: var(--text);
+        letter-spacing: -0.01em;
+    }
+
+    .sub {
+        font-size: 0.95rem;
+        color: var(--text-dimmer);
+    }
+
+    .home-link {
+        margin-top: 1rem;
+        padding: 0.65rem 1.5rem;
+        border-radius: 8px;
+        font-size: 0.85rem;
+        font-weight: 600;
+        text-decoration: none;
+        background: linear-gradient(90deg, var(--blue), var(--purple));
+        color: #fff;
+        transition: opacity 0.2s;
+    }
+
+    .home-link:hover {
+        opacity: 0.85;
+    }
+</style>

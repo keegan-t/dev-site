@@ -1,0 +1,111 @@
+[
+  {
+    "name": "Eggert",
+    "icon": "/images/icons/eggert.png",
+    "thumbnail": "/images/thumbnails/eggert.png",
+    "desc": "A Discord bot for the TypeGG typing community that displays detailed account statistics and personal bests directly in Discord.",
+    "tags": [
+      "Python",
+      "discord.py",
+      "matplotlib",
+      "SQLite"
+    ],
+    "url": "https://github.com/typegg-io/eggert-bot",
+    "live": null,
+    "discord": "https://discord.gg/F43b6c7a"
+  },
+  {
+    "name": "TypeRacer Stats",
+    "icon": "/images/icons/typeracer-stats.png",
+    "thumbnail": "/images/thumbnails/typeracer-stats.png",
+    "desc": "A typing stats Discord bot for TypeRacer - similar to Eggert but tailored to the TypeRacer platform and its community.",
+    "tags": [
+      "Python",
+      "discord.py",
+      "matplotlib",
+      "SQLite"
+    ],
+    "url": "https://github.com/keegan-t/typeracer-stats",
+    "live": null,
+    "discord": "https://discord.gg/pmVsGdM4"
+  },
+  {
+    "name": "Art Generator",
+    "icon": "/images/icons/art-generator.png",
+    "thumbnail": "/images/thumbnails/art-generator.png",
+    "desc": "A browser-based generative art tool with real-time parameter tuning, a randomize function, and a persistent local gallery.",
+    "tags": [
+      "JavaScript",
+      "Canvas API"
+    ],
+    "url": "https://github.com/keegan-t/art-generator",
+    "live": "https://keegan-t.github.io/art-generator",
+    "discord": null
+  },
+  {
+    "name": "Clipboard History",
+    "icon": "/images/icons/clipboard-history.png",
+    "thumbnail": "/images/thumbnails/clipboard-history.png",
+    "desc": "A lightweight Windows clipboard manager with searchable history, system tray integration, a Quick Pick popup, and an inline calculator.",
+    "tags": [
+      "C#",
+      "WPF",
+      "SQLite"
+    ],
+    "url": "https://github.com/keegan-t/clipboard-history",
+    "live": null,
+    "discord": null
+  },
+  {
+    "name": "Thonk",
+    "icon": "/images/icons/thonk.png",
+    "thumbnail": "/images/thumbnails/thonk.png",
+    "desc": "A randomized thinking emoji generator available as a pip library, with a JavaScript playground for browser-based use.",
+    "tags": [
+      "Python",
+      "JavaScript"
+    ],
+    "url": "https://github.com/keegan-t/thonk",
+    "live": "https://keegan-t.github.io/thonk",
+    "discord": null
+  },
+  {
+    "name": "Loop Lab",
+    "icon": "/images/icons/loop-lab.png",
+    "thumbnail": "/images/thumbnails/loop-lab.png",
+    "desc": "A browser-based step sequencer for composing and saving music loops, with 16 steps, 13 melodic notes, 3 drum sounds, and real-time Web Audio API playback.",
+    "tags": [
+      "JavaScript",
+      "Web Audio API"
+    ],
+    "url": "https://github.com/keegan-t/loop-lab",
+    "live": "https://keegan-t.github.io/loop-lab",
+    "discord": null
+  },
+  {
+    "name": "Wordle Bot",
+    "icon": "/images/icons/wordle-bot.png",
+    "thumbnail": "/images/thumbnails/wordle-bot.png",
+    "desc": "An automatic Wordle solver that plays through the daily puzzle using constraint filtering and information-maximizing guess selection, winning ~90% of games.",
+    "tags": [
+      "JavaScript"
+    ],
+    "url": "https://github.com/keegan-t/wordle-bot",
+    "live": "https://keegan-t.github.io/wordle-bot",
+    "discord": null
+  },
+  {
+    "name": "Last.FM Radio",
+    "icon": "/images/icons/lastfm-radio.png",
+    "thumbnail": "/images/thumbnails/lastfm-radio.png",
+    "desc": "A web app that builds a playlist from your Last.FM listening history and plays it through YouTube, with scrobbling support and configurable play count filters.",
+    "tags": [
+      "JavaScript",
+      "Last.FM API",
+      "YouTube API"
+    ],
+    "url": "https://github.com/keegan-t/lastfm-radio",
+    "live": "https://keegan-t.github.io/lastfm-radio",
+    "discord": null
+  }
+]

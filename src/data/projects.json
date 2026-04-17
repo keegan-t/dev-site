@@ -57,6 +57,20 @@
     "discord": null
   },
   {
+    "name": "Rubik Tac Toe",
+    "icon": "/images/icons/rubik-tac-toe.png",
+    "thumbnail": "/images/thumbnails/rubik-tac-toe.png",
+    "desc": "A real-time two-player game with two modes: Classic 3x3 grid, and a 3D twist that plays across the six faces of a Rubik's Cube.",
+    "tags": [
+      "TypeScript",
+      "WebSockets",
+      "Vite"
+    ],
+    "url": "https://github.com/keegan-t/rubik-tac-toe",
+    "live": "https://rubik-tac-toe.keegant.dev",
+    "discord": null
+  },
+  {
     "name": "Thonk",
     "icon": "/images/icons/thonk.png",
     "thumbnail": "/images/thumbnails/thonk.png",

@@ -1,6 +1,9 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import projects from "../data/projects.json";
+import { readFileSync } from "fs";
+import { join } from "path";
+
+const projects = JSON.parse(readFileSync(join(process.cwd(), "src/data/projects.json"), "utf8"));
 ---
 
 <Layout title="Projects">

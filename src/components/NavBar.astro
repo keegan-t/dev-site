@@ -11,15 +11,30 @@ const links = [
 <nav class="site-nav">
     <div class="nav-inner">
         <a href="/" class="nav-title">Keegan Tournay</a>
-        <div class="nav-links">
+        <div class="nav-links" id="nav-links">
             {links.map(link => (
                     <a href={link.href} class={`nav-link${path === link.href ? " active" : ""}`}>
                         {link.label}
                     </a>
             ))}
         </div>
+        <button class="nav-hamburger" id="nav-hamburger" aria-label="Toggle menu" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
     </div>
 </nav>
+
+<script>
+    document.addEventListener("click", (e) => {
+        if (!(e.target as Element).closest("#nav-hamburger")) return;
+        const links = document.getElementById("nav-links");
+        const btn = document.getElementById("nav-hamburger");
+        const open = links?.classList.toggle("open");
+        btn?.setAttribute("aria-expanded", String(open));
+    });
+</script>
 
 <style>
     .site-nav {
@@ -76,5 +91,52 @@ const links = [
 
     .nav-link.active {
         color: #fff;
+    }
+
+    .nav-hamburger {
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        gap: 5px;
+        background: none;
+        border: none;
+        cursor: pointer;
+        padding: 0.25rem;
+    }
+
+    .nav-hamburger span {
+        display: block;
+        width: 22px;
+        height: 2px;
+        background: var(--text-muted);
+        border-radius: 2px;
+        transition: background 0.2s;
+    }
+
+    .nav-hamburger:hover span {
+        background: #fff;
+    }
+
+    @media (max-width: 540px) {
+        .nav-hamburger {
+            display: flex;
+        }
+
+        .nav-links {
+            display: none;
+            position: absolute;
+            top: 4rem;
+            left: 0;
+            right: 0;
+            flex-direction: column;
+            background: rgba(7, 7, 26, 0.97);
+            border-bottom: 1px solid var(--border-bright);
+            padding: 1rem 1.5rem;
+            gap: 1rem;
+        }
+
+        .nav-links.open {
+            display: flex;
+        }
     }
 </style>

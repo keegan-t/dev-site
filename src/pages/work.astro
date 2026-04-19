@@ -741,6 +741,31 @@ const navItems = [
     .all-projects-link:hover {
         color: var(--text);
     }
+
+    @media (max-width: 480px) {
+        .section-nav {
+            display: none;
+        }
+
+        .edu-card {
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+
+        .edu-right {
+            margin-left: auto;
+            text-align: left;
+        }
+
+        .exp-header {
+            flex-direction: column;
+            gap: 0.25rem;
+        }
+
+        .project-highlights {
+            display: none;
+        }
+    }
 </style>
 
 <script>

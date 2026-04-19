@@ -616,6 +616,17 @@ const cubePBs = siteData.cubing.pbs;
         }
     }
 
+    @media(max-width: 480px) {
+        .track-genre,
+        .th-genre,
+        .track-plays,
+        .th-plays,
+        .race-acc,
+        .solve-note {
+            display: none;
+        }
+    }
+
     /* Text side */
     .int-text {
         display: flex;
@@ -1088,6 +1099,7 @@ const cubePBs = siteData.cubing.pbs;
         position: fixed;
         z-index: 200;
         width: 320px;
+        max-width: calc(100vw - 2rem);
         background: rgba(8, 10, 18, 0.96);
         border: 1px solid rgba(255, 255, 255, 0.1);
         border-radius: 12px;

@@ -39,7 +39,7 @@
       "Canvas API"
     ],
     "url": "https://github.com/keegan-t/art-generator",
-    "live": "https://keegan-t.github.io/art-generator",
+    "live": "https://art.keegant.dev",
     "discord": null
   },
   {
@@ -93,7 +93,7 @@
       "JavaScript"
     ],
     "url": "https://github.com/keegan-t/thonk",
-    "live": "https://keegan-t.github.io/thonk",
+    "live": "https://thonk.keegant.dev",
     "discord": null
   },
   {
@@ -106,7 +106,7 @@
       "Web Audio API"
     ],
     "url": "https://github.com/keegan-t/loop-lab",
-    "live": "https://keegan-t.github.io/loop-lab",
+    "live": "https://loop-lab.keegant.dev",
     "discord": null
   },
   {
@@ -118,7 +118,7 @@
       "JavaScript"
     ],
     "url": "https://github.com/keegan-t/wordle-bot",
-    "live": "https://keegan-t.github.io/wordle-bot",
+    "live": "https://wordle.keegant.dev",
     "discord": null
   },
   {
@@ -132,7 +132,7 @@
       "YouTube API"
     ],
     "url": "https://github.com/keegan-t/lastfm-radio",
-    "live": "https://keegan-t.github.io/lastfm-radio",
+    "live": "https://radio.keegant.dev",
     "discord": null
   }
 ]

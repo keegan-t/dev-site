@@ -71,6 +71,19 @@
     "discord": null
   },
   {
+    "name": "Yahtzee",
+    "icon": "/images/icons/yahtzee.png",
+    "thumbnail": "/images/thumbnails/yahtzee.png",
+    "desc": "A single-player Yahtzee game where you compete against an AI opponent across four different skill levels.",
+    "tags": [
+      "TypeScript",
+      "Vite"
+    ],
+    "url": "https://github.com/keegan-t/yahtzee",
+    "live": "https://yahtzee.keegant.dev",
+    "discord": null
+  },
+  {
     "name": "Thonk",
     "icon": "/images/icons/thonk.png",
     "thumbnail": "/images/thumbnails/thonk.png",

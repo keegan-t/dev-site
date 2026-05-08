@@ -84,6 +84,19 @@
     "discord": null
   },
   {
+    "name": "Calendar Puzzle",
+    "icon": "/images/icons/calendar-puzzle.png",
+    "thumbnail": "/images/thumbnails/calendar-puzzle.png",
+    "desc": "A daily puzzle game where you arrange 10 pieces on a calendar grid, leaving only today's month, day, and weekday uncovered.",
+    "tags": [
+      "TypeScript",
+      "Vite"
+    ],
+    "url": "https://github.com/keegan-t/calendar-puzzle",
+    "live": "https://calendar.keegant.dev",
+    "discord": null
+  },
+  {
     "name": "Thonk",
     "icon": "/images/icons/thonk.png",
     "thumbnail": "/images/thumbnails/thonk.png",

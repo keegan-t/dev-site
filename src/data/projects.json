@@ -57,6 +57,20 @@
     "discord": null
   },
   {
+    "name": "Battle Words",
+    "icon": "/images/icons/battle-words.png",
+    "thumbnail": "/images/thumbnails/battle-words.png",
+    "desc": "A two-player word strategy game where you secretly hide 5 words on a grid and race to uncover your opponent's hidden words through dice rolls.",
+    "tags": [
+      "JavaScript",
+      "WebSockets",
+      "Vite"
+    ],
+    "url": "https://github.com/keegan-t/battle-words",
+    "live": "https://battle-words.keegant.dev",
+    "discord": null
+  },
+  {
     "name": "Rubik Tac Toe",
     "icon": "/images/icons/rubik-tac-toe.png",
     "thumbnail": "/images/thumbnails/rubik-tac-toe.png",

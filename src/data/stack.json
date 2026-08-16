@@ -15,22 +15,26 @@
         "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
       },
       {
+        "name": "Go",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original-wordmark.svg"
+      },
+      {
         "name": "C#",
         "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg"
       },
       {
         "name": "Java",
         "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
-      },
-      {
-        "name": "PHP",
-        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg"
       }
     ]
   },
   {
     "category": "Web",
     "items": [
+      {
+        "name": "SvelteKit",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/svelte/svelte-original.svg"
+      },
       {
         "name": "React",
         "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
@@ -53,8 +57,8 @@
         "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg"
       },
       {
-        "name": "Astro",
-        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/astro/astro-original.svg"
+        "name": "Vite",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vitejs/vitejs-original.svg"
       }
     ]
   },
@@ -66,20 +70,25 @@
         "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
       },
       {
-        "name": "PostgreSQL",
-        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
+        "name": "PocketBase",
+        "icon": "https://cdn.jsdelivr.net/npm/simple-icons@15/icons/pocketbase.svg",
+        "invert": true
       },
       {
         "name": "SQLite",
         "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg"
       },
       {
-        "name": "MongoDB",
-        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
-      },
-      {
         "name": "Redis",
         "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg"
+      },
+      {
+        "name": "PostgreSQL",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
+      },
+      {
+        "name": "MongoDB",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
       },
       {
         "name": "Firebase",

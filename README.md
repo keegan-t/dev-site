@@ -1,4 +1,4 @@
-# <img src="public/favicon.svg" width="40" align="center" alt="Wordle Logo"> keegant.dev
+# <img src="public/favicon.svg" height="40" align="center" alt="keegant.dev logo"> keegant.dev
 
 Personal portfolio website built with [Astro](https://astro.build) 🚀
 

@@ -4,6 +4,9 @@ import stack from "../data/stack.json";
 import education from "../data/education.json";
 import experience from "../data/experience.json";
 import projects from "../data/featured-projects.json";
+import { getAge } from "../utils/age.js";
+
+const age = getAge();
 
 const navItems = [
     { label: "About", href: "#about" },
@@ -48,7 +51,7 @@ const navItems = [
             <div class="section-label">About</div>
             <div class="about-grid">
                 <div class="about-text">
-                    <p>I'm a 23-year-old software developer from Ontario, Canada, finishing my Bachelor of Technology in
+                    <p>I'm a {age}-year-old software developer from Ontario, Canada, finishing my Bachelor of Technology in
                         Software Engineering at McMaster University. I've been building things with code since high
                         school and haven't been able to stop since.</p>
                     <p>I'm looking for a role where I can contribute to meaningful projects, work with people who care
